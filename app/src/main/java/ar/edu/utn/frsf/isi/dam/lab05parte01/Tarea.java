@@ -10,7 +10,6 @@ public class Tarea {
 
     private String titulo;
     private String descripcion;
-    private Date fechaCreacion;
 
     public Tarea() {
     }
@@ -18,7 +17,6 @@ public class Tarea {
     public Tarea(String titulo, String descripcion) {
         this.titulo = titulo;
         this.descripcion = descripcion;
-        this.fechaCreacion = new Date();
     }
 
     public String getTitulo() {
@@ -37,11 +35,4 @@ public class Tarea {
         this.descripcion = descripcion;
     }
 
-    public Date getFechaCreacion() {
-        return fechaCreacion;
-    }
-
-    public void setFechaCreacion(Date fechaCreacion) {
-        this.fechaCreacion = fechaCreacion;
-    }
 }
